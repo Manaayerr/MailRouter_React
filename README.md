@@ -1,16 +1,64 @@
-# React + Vite
+📬 MailRouter 🧑‍💻 Developed by Manayer Alabdali
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 Description
+MailRouter is a simple and efficient email mailbox management system built with **React** and **Vite**. The app allows users to:
 
-Currently, two official plugins are available:
+➕ Add a new mailbox  
+📂 View mailbox details  
+🔄 Navigate seamlessly between pages using **React Router DOM v6**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Designed with clarity and usability in mind, MailRouter demonstrates clean structure, smooth navigation, and a user-friendly interface.
 
-## React Compiler
+⚙️ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Mailbox management (create, view, edit)  
+✅ Smooth navigation with React Router  
+✅ Clean and responsive UI  
+✅ Optional Dark/Light mode toggle  
+✅ Built with React Hooks (`useState`, `useNavigate`)  
 
-## Expanding the ESLint configuration
+🚀 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/username/MailRouter.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd MailRouter
+Install dependencies:
+
+bash
+Copy code
+npm install
+Run the development server:
+
+bash
+Copy code
+npm run dev
+🌐 Usage
+
+Open your browser and visit: 👉 http://localhost:5173/
+Use the interface to manage mailboxes efficiently and navigate pages seamlessly.
+
+📂 Project Structure
+
+css
+Copy code
+src/
+ ├─ App.jsx
+ ├─ components/
+ │   ├─ NavBar.jsx
+ │   ├─ MailboxList.jsx
+ │   ├─ MailboxForm.jsx
+ │   └─ MailboxDetails.jsx
+ └─ index.css
+
+👩‍💻 Author
+Manayer Alabdali
+
+GitHub: https://github.com/Manaayerr
+
+LinkedIn: www.linkedin.com/in/manayer-al-abdali
